@@ -1,0 +1,20 @@
+{
+  "name": "Money-Tracker-Typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/damorao271/Money-Tracker-Typescript.git",
+  "author": "Daniel Morao <damorao27@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "typescript": "^5.4.2"
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/index.js"
+  },
+  "dependencies": {
+    "express": "4.18.3"
+  }
+}
